@@ -1,0 +1,37 @@
+{
+  "name": "node-oracle-jwt-async",
+  "version": "1.0.0",
+  "description": "Authorization API with JWT using node.js and oracle database (async/await)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielaraujr/node-oracle-jwt-async.git"
+  },
+  "keywords": [
+    "node.js",
+    "oracledb",
+    "jwt",
+    "async/await"
+  ],
+  "author": "Gabriel Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielaraujr/node-oracle-jwt-async/issues"
+  },
+  "homepage": "https://github.com/gabrielaraujr/node-oracle-jwt-async#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.0",
+    "oracledb": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
