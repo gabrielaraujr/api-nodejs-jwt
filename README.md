@@ -1,3 +1,3 @@
-# Authorization API
+# Authentication API
 
-API with JWT using Node.js, Express and Oracledb
+Rest API with Node.js, Express, oracledb and JWT.

@@ -7,9 +7,7 @@ async function run(sql, binds, opts, db) {
 
   try {
     conn = await oracledb.getConnection(db);
-
     const result = await conn.execute(sql, binds, opts);
-
     return result;
   } catch (err) {
     console.error(err);
