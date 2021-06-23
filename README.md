@@ -1,3 +1,3 @@
 # Authorization API
 
-Authorization API with JWT using node.js and oracle database (async/await)
+API with JWT using Node.js, Express and Oracledb
